@@ -1,9 +1,4 @@
-/*
-    #a4c2d1;    egg blue
-    #dbdcde;    light grey
-    #1f7798;     mid-blue
-    #184f63;     dark-blue
-    */
+/*  global styles    */
 
 @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Poppins&display=swap');
 
@@ -22,6 +17,11 @@ h2 {
     font-family: "DM Serif Display", serif;
     color: #184f63;
     /*  dark-blue */
+}
+
+.sharp-corners,
+.sharp-corners *  {
+    border-radius: 0;
 }
 
 /*  About section   */
@@ -67,7 +67,7 @@ h2 {
 /*  Media queries   */
 
 /*  Use Bootstrap breakpoint for XL screens   */
-@media screen and (min-width: 1200px; ) {
+@media screen and (min-width: 1200px;) {
 
     /* Fixes all portfolio cards being too tall on XL screens */
     #portfolio .card-text {
